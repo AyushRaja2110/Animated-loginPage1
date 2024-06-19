@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">login_page3</string>
+
+    <string name="nav_drawer_open">open nav drawer</string>
+    <string name="nav_drawer_close">close nav drawer</string>
+
+</resources>

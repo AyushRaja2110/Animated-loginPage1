@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/ic_home"/>
+
+        <item
+            android:id="@+id/nav_cycle"
+            android:title="Cycling"
+            android:icon="@drawable/icons8cycle64"/>
+
+        <item
+            android:id="@+id/nav_bus"
+            android:title="Bus"
+            android:icon="@drawable/ic_bus"/>
+
+        <item
+            android:id="@+id/nav_plane"
+            android:title="Plane"
+            android:icon="@drawable/ic_plane"/>
+
+    </group>
+
+        <item
+            android:title="Profile">
+
+            <menu >
+
+                <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_Register"
+                    android:title="Register"
+                    android:icon="@drawable/ic_login"/>
+                <item
+                    android:id="@+id/nav_profile"
+                    android:title="Profile"
+                    android:icon="@drawable/ic_home"/>
+                <item
+                    android:id="@+id/nav_logout"
+                    android:title="LogOut"
+                    android:icon="@drawable/ic_logout"/>
+                </group>
+            </menu>
+
+        </item>
+    <item
+        android:title="Communicate">
+
+        <menu>
+
+         <item
+             android:title="Share"
+             android:icon="@drawable/ic_share"
+             android:id="@+id/nav_share"/>
+
+         <item
+                android:title="Rate"
+                android:icon="@drawable/ic_rate"
+                android:id="@+id/nav_rate"/>
+
+        </menu>
+
+    </item>
+
+</menu>
